@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ac2626;
+    padding: 10px 20px;
+}
+
+.navbar img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.nav_item{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.nav_item:hover{
+    color: yellow;
+}

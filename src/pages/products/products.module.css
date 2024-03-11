@@ -1,0 +1,30 @@
+.container{
+    overflow: hidden;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("../../assets/background-pizza.jfif");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.products{
+    width: 70%;
+    background-color: #fff;
+    
+}
+
+.list{
+    padding: 20px 0;
+    height: 530px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    overflow-y: scroll;
+}
