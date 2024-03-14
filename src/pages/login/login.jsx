@@ -9,11 +9,12 @@ export function Login() {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const navigate = useNavigate()
+
     function handleSubmit(event) {
         event.preventDefault();
         SignIn(username, password);
         const authUser = JSON.parse(localStorage.getItem("authUser"));
-        authUser.auth ? navigate("/adicionar") : ""
+        authUser.auth ? navigate("/") : ""
     }
 
     return (

@@ -22,3 +22,25 @@
 .nav_item:hover{
     color: yellow;
 }
+
+.nav_add{
+    background-color: #fff;
+    color: #ac2626;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav_btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.nav_btn:hover{
+    color: yellow;
+}

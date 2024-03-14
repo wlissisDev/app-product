@@ -32,6 +32,16 @@
     font-weight: 600;
 }
 
+.admin_btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.admin_btns button:nth-child(2){
+    background-color: #fff;
+    color: #ac2626;
+}
+
 @media (max-width:856px){
     .card{
         width: 80%;
