@@ -31,3 +31,9 @@
     cursor: pointer;
     font-weight: 600;
 }
+
+@media (max-width:856px){
+    .card{
+        width: 80%;
+    }
+}
