@@ -34,4 +34,7 @@
         width: 95%;
         height: auto;
     }
+    .container{
+        height: 100%;
+    }
 }
