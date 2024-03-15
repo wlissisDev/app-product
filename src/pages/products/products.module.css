@@ -28,3 +28,10 @@
     gap: 1.5rem;
     overflow-y: scroll;
 }
+
+@media (max-width:856px){
+    .products{
+        width: 95%;
+        height: auto;
+    }
+}
