@@ -32,6 +32,8 @@
 @media (max-width:856px){
     .products{
         width: 95%;
+    }
+    .list{
         height: 100%;
     }
     .container{

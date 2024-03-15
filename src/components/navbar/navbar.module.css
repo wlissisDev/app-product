@@ -44,3 +44,10 @@
 .nav_btn:hover{
     color: yellow;
 }
+
+@media (max-width:856px){
+    .navbar{
+        position: fixed;
+        width: 100%;
+    }
+}
