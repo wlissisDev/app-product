@@ -13,7 +13,7 @@ export function Home() {
     async function handleSubmit(event) {
         event.preventDefault();
         setIsLoading(true)
-        await fetch(`${process.env.URL}`, {
+        await fetch("https://api-product-qgu1.onrender.com/products", {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name, description, value: price, img_url })

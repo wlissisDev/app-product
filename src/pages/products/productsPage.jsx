@@ -8,7 +8,7 @@ export function ProductsPage() {
 
     function getProdutcs() {
         setIsLoading(true);
-        fetch(`${process.env.URL}`)
+        fetch("https://api-product-qgu1.onrender.com/products")
             .then(response => response.json())
             .then(data => setData(data))
             .finally(() => setIsLoading(false));

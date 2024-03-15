@@ -9,7 +9,7 @@ export function Card({ name, description, value, img_url, id,getProdutcs }) {
     const authUser = JSON.parse(localStorage.getItem("authUser"));
 
     function deleteProduct(id){
-        fetch(`${process.env.URL}${id}`,{
+        fetch(`https://api-product-qgu1.onrender.com/products/${id}`,{
             method:"DELETE",
             headers:{"Content-Type": "application/json"}
         })
