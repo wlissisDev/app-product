@@ -76,3 +76,10 @@
 .link:hover{
     color: rgb(19, 19, 19);
 }
+
+
+@media (max-width:856px){
+    .content{
+        width: 80%;
+    }
+}
