@@ -32,7 +32,7 @@
 @media (max-width:856px){
     .products{
         width: 95%;
-        height: auto;
+        height: 100%;
     }
     .container{
         height: auto;
