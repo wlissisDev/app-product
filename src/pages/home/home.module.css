@@ -15,6 +15,8 @@
     gap: 20px;
 }
 
+
+
 .content form {
     width: 100%;
     display: flex;
@@ -25,7 +27,7 @@
 }
 
 .content h1{
-    color: #333;
+    color: #f7f7f7;
     text-align: center;
     font-size: 22px;
 }
@@ -61,7 +63,8 @@
     cursor: pointer;
     border: none;
     background: coral;
-    color: #333;
+    color: #f8f8f8;
+    font-weight: bold;
 }
 
 .content form button:hover{
@@ -80,6 +83,6 @@
 
 @media (max-width:856px){
     .content{
-        width: 80%;
+        width: 95%;
     }
 }
