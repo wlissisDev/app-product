@@ -5,6 +5,7 @@ import styles from './products.module.css';
 export function ProductsPage() {
     const [data, setData] = useState();
     const [isLoading, setIsLoading] = useState(false)
+    const [logout, setLogout] = useState(false)
 
     function getProdutcs() {
         setIsLoading(true);
@@ -17,12 +18,15 @@ export function ProductsPage() {
 
     useEffect(() => {
         getProdutcs();
-    }, [])
+    }, [logout])
 
     return (
         <div className={styles.container}>
             <div className={styles.products}>
-                <Navbar />
+                <Navbar 
+                setLogout={setLogout}
+                logout={logout}
+                />
                 {
                     isLoading ?
                         <span style={{ color: "#000", fontSize: "25px", position: "absolute", top: "50%", left: "45%", fontWeight: "bold" }}>Carregando...</span>

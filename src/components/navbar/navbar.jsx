@@ -4,13 +4,17 @@ import logo from '../../assets/logo.jfif';
 import styles from './navbar.module.css';
 import { useContext } from "react";
 import { Context } from "../../context/AuthContext";
-export function Navbar() {
+
+
+export function Navbar({setLogout,logout}) {
+
     const authUser = JSON.parse(localStorage.getItem("authUser"));
     const {Logout} = useContext(Context)
     const navigate = useNavigate()
     function handleLogout(){
         Logout()
         navigate("/")
+        setLogout(!logout)
     }
     return (
         <div className={styles.navbar}>
